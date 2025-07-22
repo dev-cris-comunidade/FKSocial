@@ -33,7 +33,7 @@ const Footer = () => {
               Espaços de reflexão crítica e coletiva sobre não monogamia, baseados em estudo, vivência e cuidado.
             </p>
             <div className="text-sm text-gray-400">
-              <p>01 de Agosto de 2025</p>
+              <p>06 de Agosto de 2025</p>
               <p>Av. Gomes Freire, 217 – Centro/RJ</p>
             </div>
           </div>
