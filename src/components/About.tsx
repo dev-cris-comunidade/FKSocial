@@ -35,10 +35,9 @@ const About = () => {
                   <div className="space-y-2">
                     <p className="text-gray-700 font-bold text-xl">Cris Almeida</p>
                     <div className="mt-4 text-sm text-gray-600 leading-relaxed space-y-2">
-                      <p>Idealizadora e produtora da FK.</p>
-                      <p>Rompi com a monogamia compulsória há mais de 13 anos.</p>
-                      <p>Sigo estudando, vivendo e criando espaços onde autonomia e afeto coexistem.</p>
-                      <p>Especialista em relacionamentos e sexualidade, com pós-graduação em desenvolvimento humano, neurociências, comunicação, inteligência emocional e conciliação de conflitos.</p>
+                    <p><strong>Idealizadora</strong> e produtora da <strong>FK</strong>.</p>
+                    <p><strong>13+ anos</strong> fora do padrão <strong>monogâmico</strong>.</p>
+                    <p>Especialista em <strong>relacionamentos</strong> e <strong>sexualidade</strong>, com pós-graduação em <strong>desenvolvimento humano</strong>, <strong>neurociências</strong>, <strong>comunicação</strong>, <strong>inteligência emocional</strong> e <strong>conciliação de conflitos</strong>.</p>
                     </div>
                   </div>
                 </div>
