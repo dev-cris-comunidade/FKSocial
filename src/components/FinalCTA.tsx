@@ -8,7 +8,7 @@ const FinalCTA = () => {
         <div className="space-y-8">
           <div className="flex items-center justify-center space-x-3 text-xl">
             <Calendar className="w-6 h-6 text-rose-300" />
-            <span>01 de Agosto às 19h</span>
+            <span>06 de Agosto às 19h</span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold">
