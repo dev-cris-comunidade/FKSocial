@@ -1,5 +1,4 @@
-import React from 'react';
-import { GraduationCap, Heart, Users } from 'lucide-react';
+import crisFoto from '../assets/Cris (2).png';
 
 const About = () => {
   return (
@@ -28,7 +27,7 @@ const About = () => {
                 <div className="text-center space-y-6">
                   <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white/30">
                     <img 
-                      src="/src/assets/Cris (2).png" 
+                      src={crisFoto}
                       alt="Cris Almeida" 
                       className="w-full h-full object-cover"
                     />
