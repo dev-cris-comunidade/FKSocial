@@ -22,10 +22,10 @@ const About = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-rose-200 via-purple-200 to-pink-200 rounded-3xl p-8">
-              <div className="w-full h-full bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
-                <div className="text-center space-y-6">
-                  <div className="w-32 h-32 rounded-full mx-auto overflow-hidden border-4 border-white/30">
+            <div className="aspect-square bg-gradient-to-br from-rose-200 via-purple-200 to-pink-200 rounded-3xl p-4 sm:p-6 md:p-8">
+              <div className="w-full h-full bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center p-3 sm:p-4">
+                <div className="text-center space-y-4 sm:space-y-6 max-w-[90%]">
+                  <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto overflow-hidden border-4 border-white/30">
                     <img 
                       src={crisFoto}
                       alt="Cris Almeida" 
@@ -33,11 +33,11 @@ const About = () => {
                     />
                   </div>
                   <div className="space-y-2">
-                    <p className="text-gray-700 font-bold text-xl">Cris Almeida</p>
-                    <div className="mt-4 text-sm text-gray-600 leading-relaxed space-y-2">
+                    <p className="text-gray-700 font-bold text-lg sm:text-xl">Cris Almeida</p>
+                    <div className="mt-2 sm:mt-4 text-xs sm:text-sm text-gray-600 leading-relaxed space-y-1 sm:space-y-2">
                     <p><strong>Idealizadora</strong> e produtora da <strong>FK</strong>.</p>
                     <p><strong>13+ anos</strong> fora do padrão <strong>monogâmico</strong>.</p>
-                    <p>Especialista em <strong>relacionamentos</strong> e <strong>sexualidade</strong>, com pós-graduação em <strong>desenvolvimento humano</strong>, <strong>neurociências</strong>, <strong>comunicação</strong>, <strong>inteligência emocional</strong> e <strong>conciliação de conflitos</strong>.</p>
+                    <p className="text-[11px] sm:text-sm">Especialista em <strong>relacionamentos</strong> e <strong>sexualidade</strong>, com pós-graduação em <strong>desenvolvimento humano</strong>, <strong>neurociências</strong>, <strong>comunicação</strong>, <strong>inteligência emocional</strong> e <strong>conciliação de conflitos</strong>.</p>
                     </div>
                   </div>
                 </div>
